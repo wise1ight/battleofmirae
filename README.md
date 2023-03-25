@@ -5,6 +5,12 @@
 ## Man(인간) 방식
 유튜브 참고자료를 따라하는 것으로 Jupyter Notebook [파일](./man.ipynb)을 통한 단계별 진행
 
+### 방식 설명
+1. Edge Mask 만들기
+2. 색상 양자화(이미지 색상 가짓수 줄이기)
+3. 노이즈 제거
+4. Edge Mask와 양자화된 이미지 결합
+
 ### 참고자료
 [Cartoon Effect on Image using OpenCV](https://www.youtube.com/watch?v=2xqvGZS7NCw)
 
