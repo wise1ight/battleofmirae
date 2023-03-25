@@ -8,6 +8,13 @@
 ### 프롬프트
 ![GPT프롬프트](./asset/gpt4.png)
 
+### 방식 설명
+1. Grayscale로 변환
+2. Median Blur 적용
+3. Adaptive threshold로 Edge 검출
+4. Bilateral Filter 적용
+5. Edge와 색상 Bilateral Filter를 적용한 이미지 결합
+
 ## 결과물 비교
 | 원본 | 인간 | GPT4 |
 |-----|-----|------|
